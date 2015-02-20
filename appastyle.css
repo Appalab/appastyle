@@ -1,0 +1,624 @@
+/*!
+ * appastyle.css v1.0.0 (http://appacyber.net) - source to link: (http://appacyber.net/appalab/css/appastylev1.0.0.css)
+ * Copyright 2015 AppaCyber Network (ACN) - dedicated to Adhya Rahman & Muhammad Rasyid Sulaimannurrahman
+ * Licensed under AppaCyber Network (ACN) (http://appacyber.net/appalab/lisensi/lisensi_appastylev1.0.0.html)
+ * The AppaLab Developer Team Licence:-
+	Copyright (c) 2015 AppaCyber Network (ACN)
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+	The above copyright notice and this permission notice shall be included in
+	all copies or substantial portions of the Software.
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	THE SOFTWARE.*/
+	/*Note: Appastyle.css masih menggunakan fontawesome versi 4.1.0 - perbedaan versi bisa mengakibatkan icon tidak tampil*/
+	@font-face{font-family: 'Ubuntu';font-style: normal;font-weight: 400;src: local('Ubuntu'), url(http://fonts.gstatic.com/s/ubuntu/v7/sDGTilo5QRsfWu6Yc11AXg.woff2) format('woff2'), url(http://fonts.gstatic.com/s/ubuntu/v7/_xyN3apAT_yRRDeqB3sPRg.woff) format('woff');}html{width:100%; margin:0px; background:#111; font-family:Ubuntu; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;-webkit-font-smoothing:antialiased; -moz-font-smoothing:antialiased; -ms-font-smoothing:antialiased; -o-font-smoothing:antialiased;} article,aside,details,footer,header,main,nav,section, summary{display:block;}.no-js {display:block;}
+body{
+background:#ffffff;
+font-size:13px;
+color:#111111;
+line-height:1.300;
+margin:0 auto;
+padding:0px;
+border:1px dotted #e0e0e0;
+height:100%;
+}
+#bingkai-penuh,#bingkai-standard,#bingkai-sedang,#bingkai-mini{
+margin:0 auto;
+padding:0px;
+}
+#bingkai-penuh{
+width:100%!important;
+}
+#bingkai-standard{
+width:87%!important;
+}
+#bingkai-sedang{
+width:70%!important;
+}
+#bingkai-mini{
+width:55%!important;
+border:1px solid #ddd;
+}
+a:link,a:visited,a:active{
+text-decoration:none;
+color:#0066FF;
+}
+a:hover{ /*umum:a:hover*/
+text-decoration:none;
+color:#FF00FF;
+}
+.clear{
+clear:both;
+/*margin:5px 0px 5px 0px;
+padding:1px 0px 1px 0px;*/
+}
+hr /*umum:garis horizontal*/ {
+height:0px;
+border:1px inset #fff;
+line-height:0.700;
+}
+.rata-kiri{
+text-align:left;
+}
+.rata-tengah{
+text-align:center;
+}
+.rata-kanan{
+text-align:right;
+right:0px;
+}
+.sembunyikan{
+display:none!important;
+visibility:hidden;
+}
+.tampilkan{
+display:block!important;
+visibility:visible;
+}
+.geser{
+position:relative;
+}
+.g-kekiri{
+padding-left:10px;
+vertical-align:middle;
+float:left!important;
+}
+.g-kekanan{
+padding-right:10px;
+vertical-align:middle;
+float:right!important;
+}
+h1.acn,h2.acn,h3.acn,h4.acn,h5.acn,h6.acn{
+font-size:13px;
+font-weight:400;
+color:#111;
+display:inline!important;
+}
+p{
+display:inline;
+}
+h1,h2,h3,h4,h5,h6{
+font-weight:400;
+color:#111;
+display:inline;
+border:0px;
+border:none;
+}
+img{
+border:0px;
+border:none;
+vertical-align:middle;
+}
+img.gbr-responsive-default{
+width:auto!important;
+height:auto!important;
+}
+img.gbr-thumb-default{
+border:1px groove #e0e0e0;
+padding:.3%;
+width:auto!important;
+height:auto!important;
+}
+img.gbr-sudut-lengkung{
+-webkit-border-radius:9px;
+-moz-border-radius:9px;
+-ms-border-radius:9px;
+-o-border-radius:9px;
+border-radius:9px;
+}
+img.gbr-bulat{
+-webkit-border-radius:50%;
+-moz-border-radius:50%;
+-ms-border-radius:50%;
+-o-border-radius:50%;
+border-radius:50%;
+}
+.tb{
+padding:5px 15px;
+border:2px outset #e0e0e0;
+line-height:2.800;
+border-radius:4px;
+cursor:pointer;
+}
+.tb,.tb-white,a.tb-white{
+background:#ffffff;
+color:#111;
+}
+.tb,.tb-white:hover,a.tb-white:hover{
+background:#868686;
+color:#fff;
+}
+.tb,.tb-standard,a.tb-standard{
+background:#428BCA;
+color:#fff;
+}
+.tb,.tb-standard:hover,a.tb-standard:hover{
+background:#0048A1;
+color:#fff;
+}
+.tb,.tb-hijau,a.tb-hijau{
+background:#5CB85C;
+color:#fff;
+}
+.tb,.tb-hijau:hover,a.tb-hijau:hover{
+background:#05923D;
+color:#fff;
+}
+.tb,.tb-merah,a.tb-merah{
+background:#D9534F;
+color:#fff;
+}
+.tb,.tb-merah:hover,a.tb-merah:hover{
+background:#A92925;
+color:#fff;
+}
+.tb,.tb-grapes,a.tb-grapes{
+background:#660066;
+color:#fff;
+}
+.tb,.tb-grapes:hover,a.tb-grapes:hover{
+background:#330000;
+color:#fff;
+}
+.tb,.tb-pink,a.tb-pink{
+background:#FF0084;
+color:#fff;
+}
+.tb,.tb-pink:hover,a.tb-pink:hover{
+background:#CB2027;
+color:#fff;
+}
+abbr[title]{
+border-bottom:1px dotted #e0e0e0;
+}
+b{
+font-weight:bold;
+}
+small{
+font-size:77%;
+}
+sub,sup{
+font-size:11px;
+line-height:0px;
+position:relative;
+vertical-align:middle;
+top:-.5px;
+bottom:-.5px;
+}
+pre{
+overflow:auto;
+}
+button,input,select,textarea{
+color:inherit;
+font:inherit;
+margin:0;
+}
+button,input[type=button],input[type=reset],input[type=submit]{
+-webkit-appearance:button;
+cursor:pointer;
+}
+input{
+line-height:normal;
+}
+input[type=checkbox],input[type=radio]{
+box-sizing:border-box;
+padding:0
+}
+fieldset{
+border:1px solid #e0e0e0;
+margin:0px 2px;
+padding:4px;
+}
+legend{
+border:0px;
+border:none;
+padding:0px;
+}
+textarea{
+overflow:auto;
+}
+.textarea-norezise{
+resize:none;
+}
+table{
+border-collapse:collapse;
+border-spacing:.5px;
+}
+tr,td,th{
+padding:0px;
+}
+pre,blockquote{
+border:1px solid #868686;
+page-break-inside:avoid;
+}
+select{
+background-color:#e0e0e0;
+}
+label{
+border:1px solid #111;
+line-height:normal;
+padding:2px;
+}
+.input-acn-search{
+border:1px solid #979797;
+padding:7px 34px 7px 7px;
+font-size:14px;
+font-weight:400;
+color:#111;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+border-radius:3px;
+margin:7px 0px 0px 10px;
+}
+.btn-search{
+background:#006666;
+color:#fff;
+border:0px;
+font-size:18px;
+margin:0px 0px 0px -30px;
+-webkit-border-radius:17px;
+-moz-border-radius:17px;
+border-radius:17px;
+border:0px;
+min-width:5%;
+}
+.input-acn-search:hover{
+background:#fff;
+border:1px solid #979797;
+}
+.input-acn-search placeholder{
+color:#666666;
+}
+.acn-title{
+margin:0px;
+height:45px;
+padding:0px 25px 0px 25px;
+background:#FF9900;
+line-height:normal;
+vertical-align:middle;
+display:table-cell!important;
+}
+.fa{
+width:10px;
+padding:0px;
+margin:0px;
+height:0px;!important;
+border:0px!important;
+line-height:inherit!important;
+}
+.menu-container{
+width:100%;
+margin:0px;
+height:45px;
+padding:0px;
+background:#222222;
+line-height:normal;
+vertical-align:middle;
+display:table-cell!important;
+}
+.acn-title a,.acn-title a h1{
+color:#FFFFFF;
+font-size:19px;
+font-weight:500;
+font-style:normal;
+font-size-adjust:inherit;
+}
+.acn-title a:hover,.acn-title a:hover h1{
+color:#999;
+}
+#acn-border{
+position:absolute;
+width:20px;
+height:20px;
+border-top:17px solid transparent;
+border-left:21px solid #FF9900;
+border-bottom:17px solid transparent;
+display:table-cell;
+margin-top:7px;
+margin-left:140px;
+z-index:1;
+}
+ul,li,ul li{
+list-style:none;
+list-style-image:none;
+background:none;
+}
+/*------menu-------*/
+nav ul.main-menu li a{
+color:#fff;
+}
+.home a{
+background:#9966CC;
+color:#e0e0e0;
+-webkit-border-radius:0px 37px 37px 0px;
+border-radius:0px 37px 37px 0px;
+}
+nav ul {
+-webkit-font-smoothing:antialiased;
+background:#222222;
+margin:0;
+padding:0;
+height:45px;
+}
+nav li {
+float:left;
+margin:0;
+padding:0;
+position:relative;
+min-width:110px;
+}
+nav a {
+background:none;
+display:block;
+font:normal 14px/50px Ubuntu;
+padding:0 25px;
+text-align:center;
+text-decoration: none;
+}
+li a{
+color:#e0e0e0;
+background:none;
+}
+nav li:hover a {
+background:#000;
+color:#e0e0e0;
+}
+nav li ul {
+float:left;
+left:0;
+opacity:0.5;
+position:absolute;
+top:35px;
+visibility:hidden;
+z-index:1;
+-webkit-transition: all .5s ease;
+-moz-transition: all .5s ease;
+-ms-transition: all .5s ease;
+-o-transition: all .5s ease;
+transition: all .5s ease;
+}
+nav li:hover ul {
+opacity:1;
+top:50px;
+visibility:visible;
+}
+nav li ul li {
+float:none;
+width:100%;
+}
+nav li ul a:hover {
+background:#666666;
+color:#fff;
+}
+ul.sub-menu{
+min-width:180px;
+max-width:100%;
+}
+ul.sub-menu li:hover{
+background-color:#000;
+color:#fff;
+border:0px;
+border:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Kontrol animasi*/
+.ani-animasi{
+}
+*{
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+-ms-box-sizing:border-box;
+-o-box-sizing:border-box;
+box-sizing:border-box;
+}
+@media screen and (max-width:55%){/*bila screen maksimum 55% atau sama dengan #bingkai-mini*/}
+@media screen and (max-width:768px) and (max-width:480px) {
+	body{
+	padding-left:3px!important;
+	width:100%;
+	}
+	#bingkai-penuh,#bingkai-standard,#bingkai-sedang,#bingkai-mini{
+	border:0px;
+	border:none;
+	width:100%!important;
+	}
+	img.gbr-responsive-default{
+	border:0px;
+	border:none;
+	width:100%!important;
+	height:100%!important;
+	}
+	img.gbr-thumb-default{
+	border:1px groove #e0e0e0;
+	padding:.3%;
+	width:97%!important;
+	height:97%!important;
+	}
+	.acn-menu{
+	display:block;
+	visibility:visible;
+	width:37px;
+	height:37px;
+	margin-top:0px;
+	margin-right:17px;
+	margin-left:17px;
+	background:none;
+	border:10px inset #428BCA;
+	-webkit-transform:rotate(-180deg);
+	-moz-transform:rotate(-180deg);
+	-o-transform:rotate(-180deg);
+	transform:rotate(-180deg);
+    -webkit-transition-duration:2s;
+    -moz-transition-duration:2s;
+    -o-transition-duration:2s;
+    transition-duration:2s;
+	-webkit-border-radius:50%!important;
+	-moz-border-radius:50%!important;
+	-o-border-radius:50%!important;
+	border-radius:50%!important;
+	}
+	.menu-container .acn-menu:hover{
+	cursor:pointer;
+	display:block;
+	visibility:visible;
+	width:37px;
+	height:37px;
+	margin-right:17px;
+	margin-left:17px;
+	background:none;
+	border:10px inset #FF00FF;
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	transform:rotate(180deg);
+    -webkit-transition-duration:2s;
+    -moz-transition-duration:2s;
+    -o-transition-duration:2s;
+    transition-duration:2s;
+	}
+	.acn-title{
+	width:100%;
+	-webkit-border-radius:0px;
+	border-radius:0px;
+	position:relative;
+	}
+	.acn-border{
+	display:none;
+	}
+
+/*---------------MENU------------------*/
+	header{
+	position:relative;
+	}
+	nav{
+	position:absolute;
+	right:0px;
+	top:47px;
+	width:100%;
+	}
+	.home a{
+	background:#9966CC;
+	color:#e0e0e0;
+	-webkit-border-radius:0px;
+	border-radius:0px;
+	width:100%;
+	}
+	nav ul {
+	-webkit-font-smoothing:antialiased;
+	background:#222222;
+	margin:0;
+	padding:0;
+	height:45px;
+	}
+	nav li {
+	margin:0;
+	padding:0;
+	float:none!important;
+	position:relative;
+	text-align:right;
+	background:#666666;
+	}
+	nav ul.main-menu li a{
+	color:#fff;
+	}
+	nav a {
+	background:none;
+	display:block;
+	font:normal 14px/50px Ubuntu;
+	padding:0 25px;
+	text-align:center;
+	text-decoration: none;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+	}
+	li a{
+	color:#e0e0e0;
+	background:none;
+	}
+	nav li:hover a {
+	background:#000;
+	color:#e0e0e0;
+	}
+	nav li ul {
+	float:left;
+	left:0;
+	position:absolute;
+	top:35px;
+	visibility:hidden;
+	z-index:1;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+	}
+	nav li:hover ul {
+	opacity:1;
+	top:50px;
+	visibility:visible;
+	}
+	nav li ul li {
+	float:none;
+	width:100%;
+	}
+	nav li ul a:hover {
+	background:#666666;
+	color:#fff;
+	}
+	ul.sub-menu{
+	width:100%;
+	min-width:0px;
+	}
+	ul.sub-menu li:hover{
+	position:relative;
+	background-color:#000;
+	color:#fff;
+	border:0px;
+	border:none;
+	}
+
+}
+/*still in progress: 35%*/
